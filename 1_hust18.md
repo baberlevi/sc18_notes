@@ -20,7 +20,15 @@
 * using collectd to zmq and graphite
 * cview - app, nwperf - web (more admin focused)
 * nwperf (more user focused)
-* github.com/EMSL-MSC/NWPerf
-* github.com/EMSL-MSC/cview 
+* https://github.com/EMSL-MSC/NWPerf
+* https://github.com/EMSL-MSC/cview 
 * also on dockerhub
 
+## ReFrame : HPC regression tests in python
+* a ci based testing system for hpc platforms
+* perf logging w/ graylog
+* sanity & perf tests
+* https://github.com/eth-cscs/reframe 
+* run nightly on piz daint, etc. via jenkins
+* prod ~90min (nigthly), maint ~10min (man trigger after maint)
+* question: somewhere to share tests? in favor, not in place yet
