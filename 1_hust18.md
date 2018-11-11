@@ -32,3 +32,11 @@
 * run nightly on piz daint, etc. via jenkins
 * prod ~90min (nigthly), maint ~10min (man trigger after maint)
 * question: somewhere to share tests? in favor, not in place yet
+
+## Profiler tool (aaron welch - ornl)
+* 80% of effort porting code to titan was on understanding/restructing code
+* focusing on fortran/gcc, approach can be adapted to c/c++
+* each time a program is compiled, output is dumped to a db
+* when a user asks for profiling, it also is sent to db
+* based off work on XALT
+* MAP collects samples for profiling
