@@ -1,0 +1,24 @@
+# HPC Sys Pros
+https://github.com/HPCSYSPROS/Workshop18
+
+## Chair intro:
+* need a way to incentivize writing
+* didn't have a huge number of submissions
+* artifacts (papers + scripts on github)
+* dave clifton 19 chair
+
+## Keynote (Bill Anderson - NCAR, storage engr):
+### Best practices for managing 10's of TBs of data 
+* ncar has > 100tb
+* 38P scratch (short), 22P arch disk (med), 100P tape (long)
+* centralized storage (instead of silod per pipeline step) has worked out well
+* 'campaign' storage (between scratch & archive) i.e. drives not tape  
+* mdtest, IOR for benchmarks
+* run benchmarks before/after updates
+* t10-pi (standard for data integrity)
+* be careful w/ firmware upgrades
+* looking into tools like starfish for metadata tracking
+* don't backup, don't help users move data, no common tool/method to migrate data
+* implemented enforced quotas on archive for first time this yr in 30 yrs
+
+## 
