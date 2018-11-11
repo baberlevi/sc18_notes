@@ -1,7 +1,7 @@
 # HPC Sys Pros
 https://github.com/HPCSYSPROS/Workshop18
 
-## Chair intro:
+## Chair intro
 * need a way to incentivize writing
 * didn't have a huge number of submissions
 * artifacts (papers + scripts on github)
@@ -70,3 +70,13 @@ https://github.com/HPCSYSPROS/Workshop18
 * use systemd-nspawn (improved chroot) to create the fs
 * inspec (compliance testing framework)
 
+## next gen cluster mgmt arch (paul peltz lanl)
+* distribute mgmt functions (dhcp, pxe, etc.)
+* want to do rolling updates, tests, etc.
+* scalable service nodes
+* integrate automated testing
+* their solution: kraken (a state engine for system automation)
+* tracks state, and moves you from state you are in to state you want
+* uses protobuf (eventually consistency model)
+* modules do the work
+* https://github.com/hpc/kraken    
