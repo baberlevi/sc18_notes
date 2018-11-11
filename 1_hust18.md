@@ -18,5 +18,9 @@
 ## Cview & NWPerf on Cascade (EMSL @PNNL)
 * user & admin views
 * using collectd to zmq and graphite
-* cview - app, nwperf - web
+* cview - app, nwperf - web (more admin focused)
+* nwperf (more user focused)
+* github.com/EMSL-MSC/NWPerf
+* github.com/EMSL-MSC/cview 
+* also on dockerhub
 
