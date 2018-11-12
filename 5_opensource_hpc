@@ -10,7 +10,7 @@
 * biggest challenge: complexity of system integration
 * embedded scalable platforms: architecture + methodology (DAC 2016)
 
-## keynote: nick - amd
+## keynote: nick malaya - amd
 * moore law dead, dennard scaling dying, open source alive ?
 * architectures are exploding
 * how to use opensource to help with portability, maintainability, etc.
@@ -27,4 +27,9 @@
 * big barrier & language gap betweeen app devs and hardware designers (vendors)
 * co-design should be like open source software
 * problems are optimized for hardware, how do we flip it instead ?
-
+### key questions:
+* solving the attribution problem
+* line between performance / portability
+* standard api's as an answer?
+* learn more about perf across hardware / software
+* make co-design more open
