@@ -1,0 +1,12 @@
+# workshop on opensource in hpc
+
+## xBGAS (boston univ)
+* start with rv64 xBGAS arch
+* BRISC-V design infrastructure
+* next phase converged network on chip
+
+## system-level design: luca carloni - columbia
+* mostly focued on heterogeneous high performance embedded systems
+* biggest challenge: complexity of system integration
+* embedded scalable platforms: architecture + methodology (DAC 2016)
+
