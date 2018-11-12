@@ -60,3 +60,8 @@
 * starting to think about other cooling options for future designs, but so far fine w/ air
 * really about full rack power density, 17kW air fine, 35kW pushing it, 80kw, need water/immersion
 * rack of ocp gear at booth #1235
+
+### iceotope:
+* presentation on liquid cooling based modular data centers (shipping containers)
+* sub atmospheric pressure in the 'pod' ensures leaks don't cause issues
+* part of euroexa project
