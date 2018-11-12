@@ -1,0 +1,12 @@
+# Workshop for machine learning in HPC
+
+* next year will be a conference track
+* paper submissions due march/april
+
+## Keynote: Azalia Mirhoseini (Google Brain) 
+* trend towards more devices, bigger models, larger batch sizes
+* mixture-of-experts is a new type of layer (billions of parms, but only millions of computations) - a new type of feed forward layer
+* train a gating network, passes to sparse number of experts (experts are smaller models themselves)
+* gating function: outputs a distribution over experts
+* using MoE to concatenate regular layers for data parallelism
+*  
