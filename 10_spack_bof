@@ -49,3 +49,14 @@ https://bit.ly/sc18-spack-bof
 * working on some ways to parallelize the build better (using hashes in makefiles as targets)
 * cluster is heterogeneous arch, works well for that
 
+## CEA use for development
+* lots of complex deps
+* multiple sites, multiple linux distros, and isolated networks
+* using tcl modules
+* future plans: binary distros, all layers (sys, middleware, product) handled by spack
+
+## Questions
+* parallel builds (across nodes), yes - on the roadmap
+* conda integration? maybe after binaries
+* question about using the API - maybe more later
+
