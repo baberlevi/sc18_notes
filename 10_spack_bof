@@ -1,0 +1,51 @@
+# Spack BoF
+
+## Spack ENV
+
+## Spack Stacks
+* build on env to enable more automated deployment at hpc centers
+* better dependency resolution
+* support for language levels (e.g. CXX14, OpenMP5)
+
+## Binary packages
+* working on this as a new feature, will be on s3 after CI build 
+* s3 build will also host a spack mirror
+
+## exascale use
+Spack is the delivery platform for ECP (exascale compute project)
+Already being used by xSDK team
+
+## Configs
+* contribute configs to spack-configs repo
+
+## contributions
+* ISU is #3 contributor
+
+## maintenance
+* discussing stale bot
+
+## working to move a lot of the infrastructure to kubernetes on AWS w/ Kitware's help:
+* https://cdash.spack.io/viewProjects.php
+
+https://bit.ly/sc18-spack-bof
+
+## ORNL: OLCF
+* were using in-house developed homebrew clone smithy, person who created it left
+* using a tiered build system, lowest tier os compiler only, higher tiers reference lower builds as unbuildable external packages
+* keep configs and list of specs in git, ci/cd auto build manifests on each login node
+* ~1300 repeatable explicit builds, 75 titles, 11 olcf machines
+* interested in spack chains 
+* want to build spack in containers later
+### module naming:
+* users prefer minimal hashless modulefile names 
+* carefully build to prevent collissions
+* expose only modules for explicitly installed specs
+* lmod makes this easier, but future may expose all with suffixes
+* users just interact with module files (not spack directly)
+
+## LRZ spack use on SuperMUC-NG
+* about 150 recipes, result in ~200 modules
+* takes about 2 days to rebuild all the packages
+* working on some ways to parallelize the build better (using hashes in makefiles as targets)
+* cluster is heterogeneous arch, works well for that
+
