@@ -1,0 +1,17 @@
+
+
+## lightning talks
+
+### (one right before ECP)
+
+
+
+### ecp software build on spack
+built a container on spack
+https://e4s.io , 1PM tomorrow
+
+### NCAR
+* https://github.com/ncar/inception
+* containers curated by admin team for now
+* mount namespaces only
+* scheduler integrated
