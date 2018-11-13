@@ -27,3 +27,7 @@
 * xsede funding currently set to expire before frontera ends 
 * allocations complicated, but will let things 'cross'
 * nsf rules require no project > 10yrs, so xsede will at the least be renamed (previous teragrid, etc.)
+
+## lightning talks:
+* check on SPEC benchmark suite
+* globus is able to handle hipaa, nist, etc. data and can sign disclosures via UofC
