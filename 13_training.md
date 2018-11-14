@@ -33,3 +33,17 @@
 * 26-127 attendees , which is ~50% of registrations
 * open to non-doe attendees
 * challenge: how to gauge effectiveness
+
+## Questions:
+
+### How to handle different skill levels?
+* group peers by general scientific application (i.e. finite element, sparse matrix)
+* pair up those strong w/ the science background with others with strong programming
+* ask for 'applications' to hackathon so you get some background & can pre-pair
+* check on NVIDIA training opportunities
+* audience mentions: hpc carpentry, ask.ci, better scientific software
+
+## panel question, most ignored user community?
+* sysadmins
+* noobs
+* everyone  
