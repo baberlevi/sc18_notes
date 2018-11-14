@@ -1,11 +1,14 @@
 # Spack BoF
 
 ## Spack ENV
+* out now, we need to start trying that out
 
-## Spack Stacks
+## Spack Stacks (on the way)
 * build on env to enable more automated deployment at hpc centers
 * better dependency resolution
 * support for language levels (e.g. CXX14, OpenMP5)
+* I talked to the lead dev on this quite a while after the bof. He's going to add a slack channel for it, could use help with some features.
+* I asked about adding compiler flags to the combinatorial spec, he & Todd agreed we should do that
 
 ## Binary packages
 * working on this as a new feature, will be on s3 after CI build 
@@ -17,6 +20,7 @@ Already being used by xSDK team
 
 ## Configs
 * contribute configs to spack-configs repo
+* done: https://github.com/spack/spack-configs/pull/7
 
 ## contributions
 * ISU is #3 contributor
@@ -25,9 +29,7 @@ Already being used by xSDK team
 * discussing stale bot
 
 ## working to move a lot of the infrastructure to kubernetes on AWS w/ Kitware's help:
-* https://cdash.spack.io/viewProjects.php
-
-https://bit.ly/sc18-spack-bof
+* https://cdash.spack.io/viewProjects.php
 
 ## ORNL: OLCF
 * were using in-house developed homebrew clone smithy, person who created it left
