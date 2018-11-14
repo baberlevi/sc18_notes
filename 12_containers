@@ -3,7 +3,7 @@
 ## lightning talks
 
 ### (one right before ECP)
-
+	* concept is to not care that containers run as root (rebuild the nodes)_
 
 
 ### ecp software build on spack
@@ -15,3 +15,13 @@ https://e4s.io , 1PM tomorrow
 * containers curated by admin team for now
 * mount namespaces only
 * scheduler integrated
+
+## Panel
+
+* SPIN from NERSC built on docker and rancher
+
+### Container performance:
+* Kurtzer: need a better way to transfer abis from kernel to user space (for perf & portability)
+* Kurtzer: seeing some latencies added through addditional namespaces (i.e. network impacting HFT)
+* Question: what about non internet connected computers? Also, tradeoff between portability & performance
+
