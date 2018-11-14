@@ -10,12 +10,14 @@
     * experimental support for docker & singularity images
     * integration with openhpc
     * supports tensorflow install
+    * can create rpms
 * spack
     * more packages than easybuild
     * python2/3 (easybuild 2 only)
     * more architectures
     * more open license (now)
     * ISU on their slide about sites using it :)
+    * check the spack fossdem install presentation
 * conda/nix/guix
     * conda - binaries (adds windows, but not other archs), targets end users
     * nix - not focused on scientific sw
@@ -39,5 +41,8 @@
     * site configurable
     * can track package use in R, matlab, and python
     * xalt.readthedocs.io
+* would be nice if there was a standard for module naming across clusters
 
-
+## Testing & Performance eval
+* Lots of discussion about testing installed software & regression perf testing
+* no good answers, but lots of interest
