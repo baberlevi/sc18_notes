@@ -30,3 +30,26 @@
 * ~25% reduction in io time
 * https://github.com/pradsubedi/Stacker.git
 * future work: write path (current focused on read)
+
+## glenn lockwood: nersc, a year in the life of a PFS
+* ran instrumented benchmarks daily 
+* nersc, alcf, mira, edison, cori
+* gpfs, lustre
+* used 'tokio' framework to get consolidated data from:
+    * darshan
+    * slurm
+    * lmt
+    * ggiostat
+* 366 days, 12K runs, 220 metrics per job
+* not of insight from aggregate data
+* heatmap by time
+* vertical (transient) horizontal (systemic IO problem)
+* intersection of sma & global mean correlated to OS updates & lustre client bugs
+* also tried 14SMA vs 49SMA
+* bandwidth contention: one big cause
+* cpu load on lustre OSS's during lustre bug time period caused a problem, later high CPU correlated to high true usage
+* these methods work well for long-term issues, but not short
+* iops & BW top2
+* then open, stat, load, MD load, fullness
+* github.com/neersc/pytokio
+* (data is avail too if you want to use it for more analysis)
