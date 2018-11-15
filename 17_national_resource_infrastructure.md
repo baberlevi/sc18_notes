@@ -46,7 +46,7 @@
 * monitor nodes will be DTNs (lb, failover, etc.)
 * discussion on additional apis (open to suggestions) - e.g. multi-site replication, data publication
 
-## national research platform & open science grid:
+## national research platform (network)
 * PRP, NRP, GRP, and internet2
 * prp (pacific research platform), bring e2e network at 10gbps and above to 15 campuses into the labs near the west coast ($6M 2015-2020_
 * build on prior investment in science dmz's
@@ -67,4 +67,19 @@
 * announced may '18 to make nationwide building on regional networks (gpn, tacc-learn, nysernet)
 * now called the nrp (was prp), new $2.5mm nsf grant
 
- 
+## OSG (compute)
+* distributed teams of people & resources
+* collaborations across science & CI
+* e.g. ligo, iceccube, cms (showed pie of those projects using resources across diff institutions)
+* OSG federated resources, distributed high throughput computing
+    * ccollaboration between IT, SW, and science orgs
+* continuous operation since 2006, at 200K x86 cores now
+* (no osg dots on the map for iowa)
+* open to collaboration to anybody with data, storage, compute, or researchers
+    * user-support@opensciencegrid.org
+* support LIGO: 55% of OSG enabled LIGO CPU hours are in europe
+    * generally touches a given file ~100 times, so data caching is important
+    * so they setup a cache in amsterdam (able to leverage the fiona to get it there)
+* want as many data sources included as possible, open to all of science
+* 
+
