@@ -21,7 +21,7 @@ https://github.com/HPCSYSPROS/Workshop18
 * don't backup, don't help users move data, no common tool/method to migrate data
 * implemented enforced quotas on archive for first time this yr in 30 yrs
 
-## spectre/meltdown impact as meastured by xdmod (buffalo)
+## spectre/meltdown impact as measured by xdmod (buffalo)
 * clearly able to see impact of meltdown/spectre on graphs
 * they run a number of benchmarks (nwchem, gamess, and some synthetic)
 * IMB for mpi benchmark

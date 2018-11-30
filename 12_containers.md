@@ -12,6 +12,8 @@
 ### ecp software build on spack
 built a container on spack
 https://e4s.io , 1PM tomorrow
+http://oaciss.uoregon.edu/ecp/
+https://xsdk.info/
 
 ### NCAR
 * https://github.com/ncar/inception
@@ -21,6 +23,7 @@ https://e4s.io , 1PM tomorrow
 
 ## Panel
 * SPIN from NERSC built on docker and rancher
+* https://docs.nersc.gov/services/spin/getting_started/
 
 ### Container performance:
 * Kurtzer: need a better way to transfer abis from kernel to user space (for perf & portability)

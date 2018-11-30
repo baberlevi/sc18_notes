@@ -18,6 +18,8 @@
     * more open license (now)
     * ISU on their slide about sites using it :)
     * check the spack fossdem install presentation
+        * https://archive.fosdem.org/2018/schedule/event/spack/
+        * https://archive.fosdem.org/2018/schedule/event/llnl_spack/
 * conda/nix/guix
     * conda - binaries (adds windows, but not other archs), targets end users
     * nix - not focused on scientific sw

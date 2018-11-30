@@ -11,7 +11,7 @@
 * there is an inventory 'checkoff' for a rack
 * they give the finance person access and let them look up assets as needed
 * some templates are open source, if you've used all of your own images you can share with the group (cautious about not using vendor pics, etc.)
-* can set the tmeplate as a chassis, and list the individual blades
+* can set the template as a chassis, and list the individual blades
 * restful api, returns standard json
 * they built a dcim cli
 * have to be diligent about putting in new equip
